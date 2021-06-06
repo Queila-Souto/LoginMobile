@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="ContainerComponents">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">300dp</item>
+    <item name="android:background">@drawable/container_components</item>
+    <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="layout_senha">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/american_river</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+<style name="Edit_Text">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@drawable/edit_text</item>
+    <item name="android:padding">20dp</item>
+    <item name="android:paddingEnd">15dp</item>
+
+    <item name="android:layout_marginTop">15dp</item>
+    <item name="android:layout_marginLeft">40dp</item>
+    <item name="android:layout_marginRight">40dp</item>
+    <item name="android:maxLength">25</item>
+    <item name="android:textColor">@color/american_river</item>
+</style>
+
+ <style name="Button">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@drawable/button</item>
+    <item name="android:padding">15dp</item>
+    <item name="android:layout_margin">10dp</item>
+     <item name="android:textSize">18dp</item>
+     <item name="android:textColor">@color/luzes_da_cidade</item>
+     <item name="android:textStyle">bold</item>
+     <item name="textAllCaps">true</item>
+ </style>
+
+
+
+    <style name="Logo_Queila">
+    <item name="android:layout_width">180dp</item>
+    <item name="android:layout_height">180dp</item>
+    <item name="android:layout_margin">2dp</item>
+    <item name="android:padding">1dp</item>
+
+ </style>
+
+    <style name="Text_Dados">
+        <item name="android:textColor">@color/brisa_calmante</item>
+        <item name="android:textSize"> 18dp </item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+
+    </style>
+</resources>
